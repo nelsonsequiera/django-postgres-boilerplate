@@ -1,0 +1,14 @@
+django
+django-extensions
+django-allauth
+sentry-sdk
+djangorestframework
+markdown
+django-filter
+django-sql-explorer
+djangoql
+django-rest-swagger
+django-simple-history
+ipython
+django-environ
+psycopg2
