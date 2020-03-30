@@ -33,7 +33,9 @@ cd /application/server
 docker-compose logs -f --tail 1000
 ```
 
-## Sentry
+# Features added
+
+## [sentry](https://sentry.io/for/python/)
 
 in settings.py file:
 
@@ -41,7 +43,12 @@ in settings.py file:
 SENTRY_DSN=<% DSN from sentry server %>
 ```
 
-## Django Rest Framework
+## [django-rest-framework](https://www.django-rest-framework.org/)
 
 To view browsable APIs:
 http://localhost:8000/
+
+## [django-sql-explorer](https://github.com/groveco/django-sql-explorer)
+
+To explore:
+http://localhost:8000/explorer/

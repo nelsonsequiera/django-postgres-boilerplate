@@ -22,6 +22,8 @@ ENV LC_MESSAGES en_US.UTF-8
 
 CMD ["/bin/bash"]
 
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
+
 RUN set -ex \
     && buildDeps=' \
     libpq-dev \
@@ -30,9 +32,9 @@ RUN set -ex \
     && apt-get install -yqq --no-install-recommends \
     $buildDeps \
     build-essential \
+    gcc \
     vim \
-    python-psycopg2 \
-    apt-utils
+    python-psycopg2
 
 COPY script/entrypoint.sh /entrypoint.sh
 
