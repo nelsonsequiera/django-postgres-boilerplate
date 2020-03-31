@@ -33,7 +33,7 @@ cd /application/server
 docker-compose logs -f --tail 1000
 ```
 
-# Features added
+# Tools added
 
 ## [<u>sentry</u>](https://sentry.io/for/python/)
 

@@ -7,7 +7,6 @@ markdown
 django-filter
 django-sql-explorer
 drf-yasg
-django-simple-history
 ipython
 django-environ
 psycopg2
