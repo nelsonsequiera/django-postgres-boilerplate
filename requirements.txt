@@ -6,8 +6,7 @@ djangorestframework
 markdown
 django-filter
 django-sql-explorer
-djangoql
-django-rest-swagger
+drf-yasg
 django-simple-history
 ipython
 django-environ
